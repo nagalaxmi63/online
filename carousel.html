@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carousel in bs5</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+    #carousel{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+     .abc{
+        width: 12px !important;
+        height: 12px !important;
+        border-radius: 50%;
+     }
+     .bi{     
+        color:red ;
+     }
+
+
+</style>
+</head>
+<body id="carousel">
+    <div class="carousel slide" data-bs-ride="carousel" id="carousel123">
+        <ul class="carousel-indicators">
+            <li data-bs-target="#carousel123" data-bs-slide-to="0" class="active abc"></li>
+            <li data-bs-target="#carousel123" data-bs-slide-to="1" class="abc"></li>
+            <li data-bs-target="#carousel123" data-bs-slide-to="2" class="abc"></li>
+            <li data-bs-target="#carousel123" data-bs-slide-to="3" class="abc"></li>
+        </ul>
+        <div class="carousel-inner">
+           <div class="carousel-item active">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGnmXRgL4Wh8FpvxKcGBxgorQt3fhFrmgzTw&usqp=CAU" alt="" class="w-100">
+           </div>
+           <div class="carousel-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwEui6glD1gVBxHtd6-IVW3dS1prssLhY_6g&usqp=CAU" alt="" class="w-100">
+           </div> 
+           <div class="carousel-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXz-OPkaeaTJJM7b8dDTnTwovMnqZYR-iL0g&usqp=CAU" alt="" class="w-100">
+           </div>
+           <div class="carousel-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf1fS9qwhlDMfhnLriUbuQjzFq30zFzz278g&usqp=CAU" alt="" class="w-100">
+        <div class="carousel-caption">
+           <h2>hello dog</h2>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, eveniet.</p>
+        </div>
+        </div>
+    </div>
+    <a href="#carousel123" class="carousel-control-prev" data-bs-slide="prev"><i class="bi bi-caret-left-square-fill"></i></a>
+    <a href="#carousel123" class="carousel-control-next" data-bs-slide="next"><i class="bi bi-caret-right-square-fill"></i></a>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+</body>
+</html>
